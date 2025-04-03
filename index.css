@@ -1,0 +1,137 @@
+body{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;	
+    margin:0;
+  }
+  
+  table{
+      width: 920px;
+  }
+  
+  table, th, td{
+      border: 1px solid gray;
+      border-collapse: collapse;
+  }
+  
+  th{
+      font-weight: bold;
+      color: #453070;
+      background-color: #FFC;
+  }
+  
+  td:hover{
+      background-color: #C88493;
+  }
+  
+  img{
+      border:none; /*retira a borda da img no Internet Explorer*/	
+  }
+  
+  h3{
+      color: #453070;
+      font-size: 22px;
+      margin:0;
+      line-height: 120%;
+      font-weight:bold;
+  }
+  
+  p{
+      color: #666;
+      font-size: 16px;
+      line-height: 120%;
+  }
+  
+  .box {
+      width: 280px;
+      min-height: 100px;
+      float: left;
+  }
+  
+  .img_left{
+      float:left;
+      margin-right: 20px;
+      margin-bottom:  10px;
+  }
+  
+  .img_right{
+      float:right;
+      margin-left: 20px;
+      margin-bottom:  10px;
+  }
+  
+  .citacao{
+      color:#453070;
+      font-size: 30px;
+      font-style:italic;
+      font-weight:bold;
+      line-height:120%;
+  }
+  
+  #container{
+      width:920px;
+      height:auto;
+      margin:auto;
+      display:table;
+  }
+  
+  #topo {
+      width: 920px;
+      height: 35px;
+      background-color: #453070;
+      float: left;
+  }
+  
+  #logo {
+      width: 144px;
+      height: 182px;
+      position: relative;
+      z-index: 4;
+      float: left;
+  }
+  
+  #menu {
+      float: right;
+  }
+  
+  #menu a{
+      text-decoration:none;
+      color: #FFF;
+      font-size: 14px;
+      line-height: 35px;
+      margin-right: 40px;
+  }
+  
+  #menu a:hover{
+      text-decoration:underline;
+  }
+  
+  #banner {
+      width: 920px;
+      height: 300px;
+      float: left;
+  }
+  
+  #conteudo {
+      width: 920px;
+      min-height: 130px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      float: left;
+  }
+  
+  #box2{
+      margin-left:40px;
+      margin-right:40px;	
+  }
+  
+  #rodape{
+      width:920px;
+      height:35px;	
+      background-color:#CCA9DD;
+     
+      margin-top:40px;	
+      float:left;
+      text-align: center;
+      line-height: 35px;
+  }
+  
+  
